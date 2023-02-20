@@ -637,8 +637,7 @@ progress {
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
-  /* Adjust to the left */
-  margin-left: 5rem;
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {
@@ -4031,6 +4030,7 @@ textarea.form-control-lg {
 .navbar {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;

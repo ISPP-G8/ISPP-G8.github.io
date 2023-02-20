@@ -637,7 +637,8 @@ progress {
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
-  margin-left: auto;
+  /* Adjust to the left */
+  margin-left: 5rem;
 }
 
 @media (min-width: 576px) {
@@ -4030,7 +4031,6 @@ textarea.form-control-lg {
 .navbar {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
@@ -11352,6 +11352,7 @@ header.masthead h1, header.masthead .h1 {
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
+  padding-bottom: 5rem;
 }
 .testimonials .testimonial-item img {
   max-width: 12rem;

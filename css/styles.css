@@ -665,6 +665,7 @@ progress {
     max-width: 1320px;
   }
 }
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -4038,6 +4039,12 @@ textarea.form-control-lg {
   /* Same color as logo */
   background-color: #47151e;
 }
+
+.navbar > .container {
+  margin-left: 0rem;
+  margin-right: 0rem
+}
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -11363,6 +11370,7 @@ header.masthead h1, header.masthead .h1 {
   position: relative;
   background-color: #343a40;
   background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background-color: rgba(0, 0, 0, .25);
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -11379,6 +11387,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 footer.footer {
+  background-color: #47151e;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }

@@ -12439,3 +12439,15 @@ img.showcase-img-img {
   vertical-align: middle;
   max-width: 300px;
 }
+
+.terms-text {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pricing-table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
